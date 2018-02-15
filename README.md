@@ -1,4 +1,9 @@
-## Objectives 
+## Practice Challenge
+
+### What are we looking for 
+1. Are you able to manipulate the DOM i.e create DOM elements (HTML) and handle events
+2. Can you perform async actions i.e Fetch
+> Make it work, then make it perfect - Wayne Gretzy - Michael Scott
 
 #### Build the following application in Vanilla JS 
 
@@ -15,6 +20,10 @@ You will be using the following backend to get the list of books. The expectatio
       
       
 __You can find a user_id to use by looking at the following route. `https://flatiron-bookstore-challenge.herokuapp.com/users`. Pick a random user to use but be advised there is some chance of someone else using the same id__
+
+
+
+
 
 
 ### Things to note 
