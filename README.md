@@ -1,9 +1,5 @@
 ## Practice Challenge
-
-### What are we looking for
-1. Are you able to manipulate the DOM i.e create DOM elements (HTML) and handle events
-2. Can you perform async actions i.e Fetch
-> Make it work, then make it perfect - Wayne Gretzy - Michael Scott
+Welcome to BookLiker, where you can look at books and like them! (Hey, not all startups are brilliant ideas.)
 
 ### Getting Started
 
