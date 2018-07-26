@@ -5,6 +5,21 @@
 2. Can you perform async actions i.e Fetch
 > Make it work, then make it perfect - Wayne Gretzy - Michael Scott
 
+### Getting Started
+
+You will be using the [json-server](https://github.com/typicode/json-server) package to mock an external API. You can make the same RESTful requests to this server that you would to any API. If you haven't yet, install json-server.
+```bash
+npm install -g json-server
+```
+
+Then run the server with:
+```bash
+json-server db.json
+```
+
+This will serve your code on http://localhost:3000.
+
+
 #### Build the following application in Vanilla JS
 
 ![](example.gif)
