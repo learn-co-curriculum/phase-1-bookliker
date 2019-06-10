@@ -1,24 +1,26 @@
-## Practice Challenge
+# Practice Challenge
+
 Welcome to BookLiker, where you can look at books and like them! (Hey, not all startups are brilliant ideas.)
 
-### Getting Started
+## Getting Started
 
-You will be using the [json-server](https://github.com/typicode/json-server) package to mock an external API. You can make the same RESTful requests to this server that you would to any API. If you haven't yet, install json-server.
+You will be using the [json-server][] package to mock an external API. You can make the same RESTful requests to this server that you would to any API. If you haven't yet, install json-server.
+
 ```bash
 npm install -g json-server
 ```
 
 Then run the server with:
+
 ```bash
 json-server db.json
 ```
 
-This will serve your code on http://localhost:3000.
+This will serve your code on `http://localhost:3000`.
 
+### Build the following application in Vanilla JS
 
-#### Build the following application in Vanilla JS
-
-![](example.gif)
+![example GIF](example.gif)
 
 You will be using the following backend to get the list of books. The expectation here is that you will include the following features
 
@@ -36,5 +38,8 @@ You will be using the following backend to get the list of books. The expectatio
   ]
 }
 ```
+
 - This route will respond with the updated book json including the list of users who have liked the book.
 - BONUS: Can you make it so a second patch request to the same book removes your user from the list of users? Can you toggle likes on and off?
+
+[json-server]: https://github.com/typicode/json-server
