@@ -1,249 +1,263 @@
 {
-    "books": [
-      {
-        "id": 1,
-        "title": "Grapefruit. A book of Instruction and Drawings.",
-        "description": "Back in print for the first time in nearly thirty years, here is Yoko Ono's whimsical, delightful, subversive, startling book of instructions for art and for life. 'Burn this book after you've read it.' -- Yoko 'A dream you dream alone may be a dream, but a dream two people dream together is a reality. This is the greatest book I've ever burned.' -- John",
-        "author": "Yoko Ono",
-        "img_url": "https://books.google.com/books/content?id=3S8Rwr-iBdoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-        "users": [
-          {
-            "id": 2,
-            "username": "auer"
-          },
-          {
-            "id": 8,
-            "username": "maverick"
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "title": "Invisible Women. Data Bias in a World Designed for Men",
-        "description": "Data is fundamental to the modern world. From economic development, to healthcare, to education and public policy, we rely on numbers to allocate resources and make crucial decisions. But because so much data fails to take into account gender, because it treats men as the default and women as atypical, bias and discrimination are baked into our systems. And women pay tremendous costs for this bias, in time, money, and often with their lives.",
-        "author": "Caroline Criado Perez",
-        "img_url": "https://books.google.com/books/content?id=GdmEDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-        "users": [
-          {
-            "id": 10,
-            "username": "macejkovic"
-          },
-          {
-            "id": 4,
-            "username": "ann"
-          },
-          {
-            "id": 6,
-            "username": "steuber"
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "title": "I'm Telling the Truth, But I'm Lying. Essays",
-        "description": "In I’m Telling the Truth, but I’m Lying Bassey Ikpi explores her life—as a Nigerian-American immigrant, a black woman, a slam poet, a mother, a daughter, an artist—through the lens of her mental health and diagnosis of bipolar II and anxiety. Her remarkable memoir in essays implodes our preconceptions of the mind and normalcy as Bassey bares her own truths and lies for us all to behold with radical honesty and brutal intimacy.",
-        "author": "Bassey Ikpi",
-        "img_url": "https://books.google.com/books/content?id=nHlbDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-        "users": [
-          {
-            "id": 8,
-            "username": "maverick"
-          },
-          {
-            "id": 9,
-            "username": "alex"
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "title": "Angela Davis. An Autobiography",
-        "description": "Her own powerful story up to 1972, told with warmth, brilliance, humor and conviction. With an introduction by the author.",
-        "author": "Angela Y. Davis ",
-        "img_url": "http://books.google.com/books/content?id=S3yODQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-        "users": [
-          {
-            "id": 10,
-            "username": "macejkovic"
-          },
-          {
-            "id": 8,
-            "username": "maverick"
-          }
-        ]
-      },
-      {
-        "id": 5,
-        "title": "Beyond the Gender Binary. Pocket Change Collective.",
-        "description": "Pocket Change Collective was born out of a need for space. Space to think. Space to connect. Space to be yourself. And this is your invitation to join us. 'Thank God we have Alok. And I'm learning a thing or two myself'--Billy Porter, Emmy award-winning actor, singer, and Broadway theater performer",
-        "author": "Alok Vaid-Menon",
-        "img_url": "https://books.google.com/books/content?id=hxGuDwAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&source=gbs_api",
-        "users": [
-          {
-            "id": 10,
-            "username": "macejkovic"
-          },
-          {
-            "id": 4,
-            "username": "ann"
-          },
-          {
-            "id": 8,
-            "username": "maverick"
-          }
-        ]
-      },
-      {
-        "id": 6,
-        "title": "Marriage of a Thousand Lies",
-        "description": "Marriage of a Thousand Lies follows Lucky and her husband, Krishna, both of whom are gay and lying to their Sri Lankan families about it.  When circumstances cause Lucky to return back to her childhood home, Lucky asks herself what she is willing to walk away from when she rekindles love for her first friend.",
-        "author": "S.J. Sindu",
-        "img_url": "https://books.google.com/books/content?id=54vbDgAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&source=gbs_api",
-        "users": [
-          {
-            "id": 7,
-            "username": "steuber"
-          },
-          {
-            "id": 4,
-            "username": "ann"
-          }
-        ]
-      },
-      {
-        "id": 7,
-        "title": "The Collected Schizophrenias ",
-        "description": "An intimate, moving book written with the immediacy and directness of one who still struggles with the effects of mental and chronic illness, The Collected Schizophrenias cuts right to the core. Schizophrenia is not a single unifying diagnosis, and Esmé Weijun Wang writes not just to her fellow members of the “collected schizophrenias” but to those who wish to understand it as well. Opening with the journey toward her diagnosis of schizoaffective disorder, Wang discusses the medical community’s own disagreement about labels and procedures for diagnosing those with mental illness, and then follows an arc that examines the manifestations of schizophrenia in her life. In essays that range from using fashion to present as high-functioning to the depths of a rare form of psychosis, and from the failures of the higher education system and the dangers of institutionalization to the complexity of compounding factors such as PTSD and Lyme disease, Wang’s analytical eye, honed as a former lab researcher at Stanford, allows her to balance research with personal narrative. An essay collection of undeniable power, The Collected Schizophrenias dispels misconceptions and provides insight into a condition long misunderstood.",
-        "author": "Esmé Weijun Wang",
-        "img_url": "http://books.google.com/books/content?id=FLFoDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-        "users": [
-          {
-            "id": 3,
-            "username": "marvin"
-          },
-          {
-            "id": 5,
-            "username": "feels-like-summer"
-          }
-        ]
-      },
-      {
-        "id": 8,
-        "title": "The Autobiography of Malcolm X: As Told to Alex Haley",
-        "description": "In the searing pages of this classic autobiography, originally published in 1964, Malcolm X, the Muslim leader, firebrand, and anti-integrationist, tells the extraordinary story of his life and the growth of the Black Muslim movement. His fascinating perspective on the lies and limitations of the American Dream, and the inherent racism in a society that denies its nonwhite citizens the opportunity to dream, gives extraordinary insight into the most urgent issues of our own time. The Autobiography of Malcolm X stands as the definitive statement of a movement and a man whose work was never completed but whose message is timeless. It is essential reading for anyone who wants to understand America.",
-        "author": "Malcolm X with Alex Haley",
-        "img_url": "http://books.google.com/books/content?id=EtVfCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-        "users": [
-          {
-            "id": 9,
-            "username": "alex"
-          },
-          {
-            "id": 3,
-            "username": "marvin"
-          },
-          {
-            "id": 2,
-            "username": "auer"
-          }
-        ]
-      },
-      {
-        "id": 9,
-        "title": "Parable of the Sower",
-        "description": "Lauren Olamina and her family live in one of the only safe neighborhoods remaining on the outskirts of Los Angeles. Behind the walls of their defended enclave, Lauren’s father, a preacher, and a handful of other citizens try to salvage what remains of a culture that has been destroyed by drugs, disease, war, and chronic water shortages. While her father tries to lead people on the righteous path, Lauren struggles with hyperempathy, a condition that makes her extraordinarily sensitive to the pain of others. When fire destroys their compound, Lauren’s family is killed and she is forced out into a world that is fraught with danger. With a handful of other refugees, Lauren must make her way north to safety, along the way conceiving a revolutionary idea that may mean salvation for all mankind.",
-        "author": "Octavia E. Butler",
-        "img_url": "http://books.google.com/books/content?id=8thMLkahggcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-        "users": [
-          {
-            "id": 8,
-            "username": "maverick"
-          },
-          {
-            "id": 6,
-            "username": "steuber"
-          },
-          {
-            "id": 5,
-            "username": "feels-like-summer"
-          }
-        ]
-      },
-      {
-        "id": 10,
-        "title": "An American Marriage",
-        "description": "This stirring love story is a profoundly insightful look into the hearts and minds of three people who are at once bound and separated by forces beyond their control. An American Marriage is a masterpiece of storytelling, an intimate look deep into the souls of people who must reckon with the past while moving forward—with hope and pain—into the future.",
-        "author": "Tayari Jones",
-        "img_url": "http://books.google.com/books/content?id=fc8PDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-        "users": [
-          {
-            "id": 8,
-            "username": "maverick"
-          },
-          {
-            "id": 10,
-            "username": "macejkovic"
-          }
-        ]
-      },
-      {
-        "id": 11,
-        "title": "Behold the Dreamers",
-        "description": "Behold the Dreamers is the 2016 debut novel by Imbolo Mbue. The novel details the experiences of two New York City families during the 2008 financial crisis: an immigrant family from Cameroon, the Jonga family, and their wealthy employers, the Edwards family.",
-        "author": "Imbolo Mbue",
-        "img_url": "http://books.google.com/books/content?id=nEcsDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-        "users": [
-          {
-            "id": 8,
-            "username": "maverick"
-          },
-          {
-            "id": 10,
-            "username": "macejkovic"
-          }
-        ]
-      }
-    ],
-    "users": [
-      {
-        "id": 1,
-        "username": "pouros"
-      },
-      {
-        "id": 2,
-        "username": "auer"
-      },
-      {
-        "id": 3,
-        "username": "marvin"
-      },
-      {
-        "id": 4,
-        "username": "ann"
-      },
-      {
-        "id": 5,
-        "username": "feels-like-summer"
-      },
-      {
-        "id": 6,
-        "username": "steuber"
-      },
-      {
-        "id": 7,
-        "username": "steuber"
-      },
-      {
-        "id": 8,
-        "username": "maverick"
-      },
-      {
-        "id": 9,
-        "username": "alex"
-      },
-      {
-        "id": 10,
-        "username": "macejkovic"
-      }
-    ]
-  }
+  "books": [
+    {
+      "id": 1,
+      "title": "Grapefruit",
+      "subtitle": "A book of Instruction and Drawings.",
+      "description": "Back in print for the first time in nearly thirty years, here is Yoko Ono's whimsical, delightful, subversive, startling book of instructions for art and for life. 'Burn this book after you've read it.' -- Yoko 'A dream you dream alone may be a dream, but a dream two people dream together is a reality. This is the greatest book I've ever burned.' -- John",
+      "author": "Yoko Ono",
+      "img_url": "https://books.google.com/books/content?id=3S8Rwr-iBdoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "users": [
+        {
+          "id": 2,
+          "username": "auer"
+        },
+        {
+          "id": 8,
+          "username": "maverick"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Invisible Women",
+      "subtitle": "AData Bias in a World Designed for Men.",
+      "description": "Data is fundamental to the modern world. From economic development, to healthcare, to education and public policy, we rely on numbers to allocate resources and make crucial decisions. But because so much data fails to take into account gender, because it treats men as the default and women as atypical, bias and discrimination are baked into our systems. And women pay tremendous costs for this bias, in time, money, and often with their lives.",
+      "author": "Caroline Criado Perez",
+      "img_url": "https://books.google.com/books/content?id=GdmEDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "users": [
+        {
+          "id": 10,
+          "username": "macejkovic"
+        },
+        {
+          "id": 4,
+          "username": "ann"
+        },
+        {
+          "id": 6,
+          "username": "steuber"
+        },
+        {
+          "id": 1,
+          "username": "pouros"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "I'm Telling the Truth, But I'm Lying",
+      "subtitle": "Essays",
+      "description": "In I’m Telling the Truth, but I’m Lying Bassey Ikpi explores her life—as a Nigerian-American immigrant, a black woman, a slam poet, a mother, a daughter, an artist—through the lens of her mental health and diagnosis of bipolar II and anxiety. Her remarkable memoir in essays implodes our preconceptions of the mind and normalcy as Bassey bares her own truths and lies for us all to behold with radical honesty and brutal intimacy.",
+      "author": "Bassey Ikpi",
+      "img_url": "https://books.google.com/books/content?id=nHlbDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "users": [
+        {
+          "id": 8,
+          "username": "maverick"
+        },
+        {
+          "id": 9,
+          "username": "alex"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Angela Davis",
+      "description": "Her own powerful story up to 1972, told with warmth, brilliance, humor and conviction. With an introduction by the author.",
+      "author": "Angela Y. Davis ",
+      "img_url": "http://books.google.com/books/content?id=S3yODQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "users": [
+        {
+          "id": 10,
+          "username": "macejkovic"
+        },
+        {
+          "id": 8,
+          "username": "maverick"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Beyond the Gender Binary",
+      "subtitle": "Pocket Change Collective",
+      "description": "Pocket Change Collective was born out of a need for space. Space to think. Space to connect. Space to be yourself. And this is your invitation to join us. 'Thank God we have Alok. And I'm learning a thing or two myself'--Billy Porter, Emmy award-winning actor, singer, and Broadway theater performer",
+      "author": "Alok Vaid-Menon",
+      "img_url": "https://books.google.com/books/content?id=hxGuDwAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&source=gbs_api",
+      "users": [
+        {
+          "id": 10,
+          "username": "macejkovic"
+        },
+        {
+          "id": 4,
+          "username": "ann"
+        },
+        {
+          "id": 8,
+          "username": "maverick"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Marriage of a Thousand Lies",
+      "subtitle": "",
+      "description": "Marriage of a Thousand Lies follows Lucky and her husband, Krishna, both of whom are gay and lying to their Sri Lankan families about it.  When circumstances cause Lucky to return back to her childhood home, Lucky asks herself what she is willing to walk away from when she rekindles love for her first friend.",
+      "author": "S.J. Sindu",
+      "img_url": "https://books.google.com/books/content?id=54vbDgAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&source=gbs_api",
+      "users": [
+        {
+          "id": 7,
+          "username": "steuber"
+        },
+        {
+          "id": 4,
+          "username": "ann"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "The Collected Schizophrenias",
+      "subtitle": "",
+      "description": "An intimate, moving book written with the immediacy and directness of one who still struggles with the effects of mental and chronic illness, The Collected Schizophrenias cuts right to the core. Schizophrenia is not a single unifying diagnosis, and Esmé Weijun Wang writes not just to her fellow members of the “collected schizophrenias” but to those who wish to understand it as well. Opening with the journey toward her diagnosis of schizoaffective disorder, Wang discusses the medical community’s own disagreement about labels and procedures for diagnosing those with mental illness, and then follows an arc that examines the manifestations of schizophrenia in her life. In essays that range from using fashion to present as high-functioning to the depths of a rare form of psychosis, and from the failures of the higher education system and the dangers of institutionalization to the complexity of compounding factors such as PTSD and Lyme disease, Wang’s analytical eye, honed as a former lab researcher at Stanford, allows her to balance research with personal narrative. An essay collection of undeniable power, The Collected Schizophrenias dispels misconceptions and provides insight into a condition long misunderstood.",
+      "author": "Esmé Weijun Wang",
+      "img_url": "http://books.google.com/books/content?id=FLFoDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "users": [
+        {
+          "id": 3,
+          "username": "marvin"
+        },
+        {
+          "id": 5,
+          "username": "feels-like-summer"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "The Autobiography of Malcolm X",
+      "subtitle": "As Told to Alex Haley",
+      "description": "In the searing pages of this classic autobiography, originally published in 1964, Malcolm X, the Muslim leader, firebrand, and anti-integrationist, tells the extraordinary story of his life and the growth of the Black Muslim movement. His fascinating perspective on the lies and limitations of the American Dream, and the inherent racism in a society that denies its nonwhite citizens the opportunity to dream, gives extraordinary insight into the most urgent issues of our own time. The Autobiography of Malcolm X stands as the definitive statement of a movement and a man whose work was never completed but whose message is timeless. It is essential reading for anyone who wants to understand America.",
+      "author": "Malcolm X with Alex Haley",
+      "img_url": "http://books.google.com/books/content?id=EtVfCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "users": [
+        {
+          "id": 9,
+          "username": "alex"
+        },
+        {
+          "id": 3,
+          "username": "marvin"
+        },
+        {
+          "id": 2,
+          "username": "auer"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Parable of the Sower",
+      "subtitle": "",
+      "description": "Lauren Olamina and her family live in one of the only safe neighborhoods remaining on the outskirts of Los Angeles. Behind the walls of their defended enclave, Lauren’s father, a preacher, and a handful of other citizens try to salvage what remains of a culture that has been destroyed by drugs, disease, war, and chronic water shortages. While her father tries to lead people on the righteous path, Lauren struggles with hyperempathy, a condition that makes her extraordinarily sensitive to the pain of others. When fire destroys their compound, Lauren’s family is killed and she is forced out into a world that is fraught with danger. With a handful of other refugees, Lauren must make her way north to safety, along the way conceiving a revolutionary idea that may mean salvation for all mankind.",
+      "author": "Octavia E. Butler",
+      "img_url": "http://books.google.com/books/content?id=8thMLkahggcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "users": [
+        {
+          "id": 8,
+          "username": "maverick"
+        },
+        {
+          "id": 6,
+          "username": "steuber"
+        },
+        {
+          "id": 5,
+          "username": "feels-like-summer"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "An American Marriage",
+      "subtitle": "",
+      "description": "This stirring love story is a profoundly insightful look into the hearts and minds of three people who are at once bound and separated by forces beyond their control. An American Marriage is a masterpiece of storytelling, an intimate look deep into the souls of people who must reckon with the past while moving forward—with hope and pain—into the future.",
+      "author": "Tayari Jones",
+      "img_url": "http://books.google.com/books/content?id=fc8PDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "users": [
+        {
+          "id": 8,
+          "username": "maverick"
+        },
+        {
+          "id": 10,
+          "username": "macejkovic"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Behold the Dreamers",
+      "subtitle": "",
+      "description": "Behold the Dreamers is the 2016 debut novel by Imbolo Mbue. The novel details the experiences of two New York City families during the 2008 financial crisis: an immigrant family from Cameroon, the Jonga family, and their wealthy employers, the Edwards family.",
+      "author": "Imbolo Mbue",
+      "img_url": "http://books.google.com/books/content?id=nEcsDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "users": [
+        {
+          "id": 8,
+          "username": "maverick"
+        },
+        {
+          "id": 10,
+          "username": "macejkovic"
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "pouros"
+    },
+    {
+      "id": 2,
+      "username": "auer"
+    },
+    {
+      "id": 3,
+      "username": "marvin"
+    },
+    {
+      "id": 4,
+      "username": "ann"
+    },
+    {
+      "id": 5,
+      "username": "feels-like-summer"
+    },
+    {
+      "id": 6,
+      "username": "steuber"
+    },
+    {
+      "id": 7,
+      "username": "steuber"
+    },
+    {
+      "id": 8,
+      "username": "maverick"
+    },
+    {
+      "id": 9,
+      "username": "alex"
+    },
+    {
+      "id": 10,
+      "username": "macejkovic"
+    }
+  ]
+}
