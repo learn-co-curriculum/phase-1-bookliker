@@ -1,4 +1,4 @@
-# BookLiker Practice Challenge
+# Additional Practice: BookLiker
 
 Welcome to BookLiker, where you can look at books and like them! (Hey, not all startups are brilliant ideas.)
 
