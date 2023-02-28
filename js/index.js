@@ -34,7 +34,6 @@ function renderBookTitle(book) {
 // Next, build the function that renders a book's details to the "#show-panel" div each time
 // the corresponding title is clicked.
 function showBookDetail(book) {
-    console.log(`after patch: ${book.title}`)
     // Grab and create the relevant elements:
     const showPanel = document.getElementById("show-panel")
     const title = document.createElement("h1")
