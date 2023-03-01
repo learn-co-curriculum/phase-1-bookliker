@@ -37,8 +37,8 @@ console.log(userList.childNodes)
 }
 
 function displayUsers(book){
-if(userList.childNodes.length !== 0){
-userList.remove
+while(userList.childNodes.length !== 0){
+userList.removeChild(userList.lastChild)
 }
 book.users.forEach(user => {
 const li = document.createElement("li")
