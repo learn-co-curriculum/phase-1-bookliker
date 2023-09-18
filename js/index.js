@@ -29,6 +29,10 @@ const createUserList = (userArr, _id = null) => {
   });
 };
 
+const addLike = (_id) => {
+  console.log(_id);
+};
+
 const displayOneBook = ({
   id,
   title,
@@ -55,6 +59,7 @@ const displayOneBook = ({
   const ul = document.createElement("ul");
   const btn = document.createElement("button");
   btn.textContent = "Like";
+  btn.addEventListener("click", () => addLike(id));
   div.append(img, h2, h3, h4, p, ul, btn);
   showPanel.appendChild(div);
 
