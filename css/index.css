@@ -1,4 +1,17 @@
 body {
-	display: grid;
-	grid-template-columns: 2fr 8fr
+  display: grid;
+  grid-template-columns: 2fr 8fr;
 }
+
+div {
+  padding: 3px;
+}
+
+#show-panel {
+  text-align: center;
+}
+
+img {
+  height: 300px;
+}
+
