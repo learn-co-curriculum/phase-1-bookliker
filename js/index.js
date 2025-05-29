@@ -25,18 +25,21 @@ document.addEventListener("DOMContentLoaded", function () {
     const author = document.createElement("h3");
     const description = document.createElement("p");
     const usersList = document.createElement("ul");
+    const likeButton = document.createElement("button");
 
     bookCover.src = book.img_url;
     bookTitle.textContent = book.title;
     subtitle.textContent = book.subtitle;
     author.textContent = book.author;
     description.textContent = book.description;
+    usersList.id = "users-list";
+    likeButton.textContent = "LIKE";
 
-    for (const user of book.users) {
-      const username = document.createElement("li");
-      username.textContent = user.username;
-      usersList.append(username);
-    }
+    likeButton.addEventListener("click", () => {
+      likeBook(book);
+    });
+
+    showUsers(book, usersList);
 
     bookPanel.append(
       bookCover,
@@ -44,7 +47,37 @@ document.addEventListener("DOMContentLoaded", function () {
       subtitle,
       author,
       description,
-      usersList
+      usersList,
+      likeButton
     );
+  }
+
+  function likeBook(book) {
+    const usersList = document.querySelector("#users-list");
+    const updatedUsers = [...book.users, { id: 12, username: "testuser" }];
+
+    fetch(`${booksUrl}/${book.id}`, {
+      method: "PATCH",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: JSON.stringify({ users: updatedUsers }),
+    })
+      .then((response) => response.json())
+      .then((updatedBook) => {
+        book.users = updatedBook.users;
+        showUsers(updatedBook, usersList);
+      });
+  }
+
+  function showUsers(book, parentElement) {
+    parentElement.innerHTML = "";
+
+    for (const user of book.users) {
+      const username = document.createElement("li");
+      username.textContent = user.username;
+      parentElement.append(username);
+    }
   }
 });
