@@ -30,15 +30,19 @@ function listBook(book) {
 }
 
 async function showBook() {
-  const book = await fetchBookById(this.getAttribute('book-id'))
+  await buildBook(this.getAttribute('book-id'))
+}
+
+async function buildBook(fetchBookId) {
+  const book = await fetchBookById(fetchBookId)
   showPanel.innerHTML = ''
   createAndAppendImg(book);
   createAndAppendText('h1', book.title);
   createAndAppendText('h3', book.subtitle);
   createAndAppendText('h3', book.author);
   createAndAppendText('p', book.description);
-  createAndAppendLike(book.users)
   createAndAppendLikeButton(book.id)
+  createAndAppendLike(book.users)
 }
 
 function createAndAppendImg(book) {
@@ -63,14 +67,43 @@ function createAndAppendLike(users) {
   showPanel.appendChild(likeUl)
 }
 
-function createAndAppendLikeButton(bookId) {
+async function createAndAppendLikeButton(bookId) {
   const likeButton = document.createElement('button')
-  likeButton.textContent = 'LIKE'
+  likeButton.textContent = await setLikeStatus(bookId)
   likeButton.setAttribute('book-id', bookId)
   likeButton.addEventListener('click', likeBook)
   showPanel.appendChild(likeButton)
 }
 
-const likeBook = () => {
+async function setLikeStatus(bookId) {
+  return await doesUserLikeBook(bookId) ? 'UNLIKE' : 'LIKE'
+}
 
+async function doesUserLikeBook(bookId) {
+  const book = await fetchBookById(bookId);
+  return !!book.users.find(user => user.id === currentUser.id)
+}
+
+async function likeBook() {
+  const bookId = this.getAttribute('book-id')
+  const book = await fetchBookById(bookId);
+  if (this.textContent === 'UNLIKE') {
+    book.users = book.users.filter(user => user.id !== currentUser.id)
+  } else {
+    book.users.push(currentUser)
+  }
+  await updateBookUsers(book)
+  buildBook(bookId)
+}
+
+const updateBookUsers = async (book) => {
+  const options = {
+    body: JSON.stringify({ users: book.users }),
+    method: 'PATCH',
+    headers: {
+      'Content-Type': 'application/json',
+      'Accept': 'application/json'
+    }
+  }
+  await fetch(`${url}/${book.id}`, options)
 }
