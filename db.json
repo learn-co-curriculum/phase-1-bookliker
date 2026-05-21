@@ -21,7 +21,7 @@
     {
       "id": 2,
       "title": "Invisible Women",
-      "subtitle": "AData Bias in a World Designed for Men.",
+      "subtitle": "A Data Bias in a World Designed for Men.",
       "description": "Data is fundamental to the modern world. From economic development, to healthcare, to education and public policy, we rely on numbers to allocate resources and make crucial decisions. But because so much data fails to take into account gender, because it treats men as the default and women as atypical, bias and discrimination are baked into our systems. And women pay tremendous costs for this bias, in time, money, and often with their lives.",
       "author": "Caroline Criado Perez",
       "img_url": "https://books.google.com/books/content?id=GdmEDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
@@ -35,12 +35,12 @@
           "username": "ann"
         },
         {
-          "id": 6,
-          "username": "steuber"
-        },
-        {
           "id": 1,
           "username": "pouros"
+        },
+        {
+          "id": 6,
+          "username": "leem"
         }
       ]
     },
@@ -76,6 +76,10 @@
         {
           "id": 8,
           "username": "maverick"
+        },
+        {
+          "id": 6,
+          "username": "leem"
         }
       ]
     },
@@ -170,14 +174,6 @@
         {
           "id": 8,
           "username": "maverick"
-        },
-        {
-          "id": 6,
-          "username": "steuber"
-        },
-        {
-          "id": 5,
-          "username": "feels-like-summer"
         }
       ]
     },
@@ -196,6 +192,10 @@
         {
           "id": 10,
           "username": "macejkovic"
+        },
+        {
+          "id": 6,
+          "username": "leem"
         }
       ]
     },
@@ -241,7 +241,7 @@
     },
     {
       "id": 6,
-      "username": "steuber"
+      "username": "leem"
     },
     {
       "id": 7,
